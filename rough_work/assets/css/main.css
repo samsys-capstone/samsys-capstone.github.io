@@ -2702,7 +2702,23 @@ input, select, textarea {
         	width: 180px;
         	height: auto;
         }
+        img.firstangle{
+        	position: relative;
+        	width: 1000px;
+        	height: auto;
+        }
 
+        img.howworks{
+        	position: relative;
+        	left: 250px;
+        	width: 700px;
+        	height: auto;
+        }
+/* Text */
+		.floating {
+		    float: left;
+		    width: 50%;
+		}
 
 
 /* List */
