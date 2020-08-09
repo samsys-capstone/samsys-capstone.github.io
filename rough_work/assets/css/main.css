@@ -2687,9 +2687,9 @@ input, select, textarea {
         }
         img.header{
         	position:relative;
-        	left:-50px;
+        	left:-5%;
         	top: 70px;
-        	width: 500px;
+        	width: 65%;
         	height: auto;
         }
         img.collaboration{
