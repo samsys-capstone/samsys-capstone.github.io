@@ -2688,18 +2688,18 @@ input, select, textarea {
         img.header{
         	position:relative;
         	left:-5%;
-        	top: 70px;
+        	top: 0.10rem;
         	width: 65%;
         	height: auto;
         }
         img.collaboration{
-        	width: 200px;
+        	width: 25%;
         	height: auto;
         }
         img.sutd{
         	position:relative;
         	left:300px;
-        	width: 180px;
+        	width: 22%;
         	height: auto;
         }
         img.firstangle{
