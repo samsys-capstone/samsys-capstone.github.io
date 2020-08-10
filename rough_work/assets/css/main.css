@@ -2681,13 +2681,13 @@ input, select, textarea {
 			}
 
 		img.header{
-		max-height=100%;
-		max-width=100%;
-    	position:relative;
-    	right:2.5rem;
-    	top: 4rem;
-    	width: 25rem;
-    	height: auto;
+			max-height=100%;
+			max-width=100%;
+	    	position:relative;
+	    	right:2.5rem;
+	    	top: 4rem;
+	    	width: 25rem;
+	    	height: auto;
     	}
         
         img.collaboration{
@@ -2705,16 +2705,21 @@ input, select, textarea {
         	width: 10rem;
         	height: auto;
         }
-        img.firstangle{
+        img.howworks{
+        	max-height=100%;
+			max-width=100%;
         	position: relative;
-        	width: 3rem;
+        	width: 25vw;
         	height: auto;
         }
 
-        img.howworks{
+        img.detail_diagram{
+        	max-height=100%;
+			max-width=100%;
         	position: relative;
-        	left: 250px;
-        	width: 700px;
+        	top: 23%;
+        	right: 5vw;
+        	width: 50vw;
         	height: auto;
         }
 
