@@ -2633,7 +2633,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
-
+	
 		.image img {
 			display: block;
 			border-radius: 4px;
@@ -2680,32 +2680,34 @@ input, select, textarea {
 				width: 100%;
 			}
 
-        img{
-
-            max-width=100%;
-            max-height=100%;
-        }
-        img.header{
-        	position:relative;
-        	left:-2.5rem;
-        	top: 4rem;
-        	width: 25rem;
-        	height: auto;
-        }
+		img.header{
+		max-height=100%;
+		max-width=100%;
+    	position:relative;
+    	right:2.5rem;
+    	top: 4rem;
+    	width: 25rem;
+    	height: auto;
+    	}
+        
         img.collaboration{
+        	max-height=100%;
+			max-width=100%;
         	position:relative;
         	width: 11rem;
         	height: auto;
         }
         img.sutd{
+        	max-height=100%;
+			max-width=100%;
         	position:relative;
-        	left:10%;
+        	left:10vw;
         	width: 10rem;
         	height: auto;
         }
         img.firstangle{
         	position: relative;
-        	width: 1000px;
+        	width: 3rem;
         	height: auto;
         }
 
