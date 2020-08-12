@@ -2701,7 +2701,7 @@ input, select, textarea {
         	max-height=100%;
 			max-width=100%;
         	position:relative;
-        	left:10vw;
+        	left:10px;
         	width: 10rem;
         	height: auto;
         }
@@ -2709,8 +2709,8 @@ input, select, textarea {
         	max-height=100%;
 			max-width=100%;
         	position: relative;
-        	width: 25vw;
-        	height: auto;
+        	width: auto;
+        	height: 80vh;
         }
 
         img.detail_diagram{
@@ -2719,8 +2719,8 @@ input, select, textarea {
         	position: relative;
         	top: 23%;
         	right: 5vw;
-        	width: 50vw;
-        	height: auto;
+        	width: auto;
+        	height: 70vh;
         }
 
 /* Text */
@@ -4960,6 +4960,8 @@ input, select, textarea {
 				height: 100%;
 				border-radius: 0;
 			}
+
+		/* Play here with width for screens */
 
 		@media screen and (max-width: 1680px) {
 
