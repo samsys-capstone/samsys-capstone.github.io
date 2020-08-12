@@ -10,6 +10,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175195181-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-175195181-1');
+		</script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -72,45 +80,64 @@
 					</section>
 
 				<!-- What is SAMsys -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="product">
-						<div class="content">
+					<section class="spotlight style2 orient-left content-align-left image-position-center onscroll-image-fade-in" id="product">
+						<div class="content" >
 							<h2>What is SAMSys?</h2>
 							<p>SAMSys is a Point-of-Care diagnostic platform designed to observe and detect anmormalies in blood activity to identify if a patient has sepsis. The device utilises microfluidic technology to create a portable, on-site laboratory to conduct rapid testing of sepsis.</p>
 							<ul class="actions stacked">
 								<li><a href="#Impact" class="button smooth-scroll-middle">Impact</a></li>
 							</ul>
 						</div>
-						<div class="image" style=" position: relative; width: 30rem; height: auto; max-width: 100%; max-height: 100%; background-color: white; border: 1px solid rgba(0, 0, 0, 0.075)">
-							<img src="images/transparentbackground_1stangle_cropped.png" alt="" />
+						<div class="image" style=" position: relative; bottom:1rem; width: 30rem; height: auto; max-width: 100%; max-height: 100%; background-color: white; object-fit: contain;">
+							<img src="images/transparentbackgroundCHISENG.png" alt="" />
 						</div>
 					</section>
 
 				<section class="wrapper style1 align-center" id="Impact">
+						<style>
+								p.small {
+								line-height: 1.3;
+								}
+
+								p.big {
+										line-height: 1.8;
+								}
+						</style>
+
 						<div class="inner">
-							<p style="font-size: 250%"><strong>600%</strong></p>	
-							<p><strong>Increase In Efficiency</strong> for sampling processing times. Enabling treatment in 30 minutes.</p>
+							<p class="small" id="percentage1"><span style="font-size: 250%"><strong>600%</strong></span><span style="font-size: 200%; padding-left: 0.5em;" id='secondText'><strong>Increase in Efficiency</strong></span>
+							<br>
+								<span style="font-size: 100%" id="thirdText">for sample processing time, enabling treatment in 30 minutes</span>
+							</p>
 
 							<!-- <h2>Impact</h2> -->
-							<p style="font-size: 250%"><strong>92%</strong></p>
-							<p><strong>Accuracy rate</strong>, rivaling traditional laboratory methods</p>
+							<p class="small" id="percentage1"><span style="font-size: 250%"><strong>92%</strong></span><span style="font-size: 200%; padding-left: 0.5em;" id='secondText'><strong>Accuracy Rate</strong></span>
+							<br>
+								<span style="font-size: 100%" id="thirdText">rivaling traditional laboratory methods</span>
+							</p>
 
-							<p style="font-size: 250%"><strong>82%</strong></p>
-							<p><strong>Survivability Rate</strong> of septic shock patients, up from 50%, as a result of increased efficiency</p>
+							<p class="small" id="percentage1"><span style="font-size: 250%"><strong>82%</strong></span><span style="font-size: 200%; padding-left: 0.5em;" id='secondText'><strong>Survivability Rate</strong></span>
+							<br>
+								<span style="font-size: 100%" id="thirdText">up from 50%, for septic shock</span>
+							</p>
 							<br>
 							<ul class="actions stacked">
 								<li><a href="#how-it-works" class="button smooth-scroll-middle">How It Works</a></li>
 							</ul>
 						</div>
 				</section>
-
+				
 			<!-- How it works -->
 				<section class="spotlight style1 orient-right content-align-center image-position-center onscroll-image-fade-in" id="how-it-works">
-						<div style=" object-fit: contain;">
+						<!-- <div>
+							<text>How it works</text>
+						</div> -->
+						<div style="object-fit: contain;">
 							<img src="images/Asset 20.png" class="detail_diagram" alt="" />
 						</div>
-						<div class="content" >
+						<div class="content">
 							<!-- <h2>How it Works</h2> -->
-							<img src="images/how-it-works.png" class="howworks" alt="" />
+							<img src="images/Vertical porcess flow3.0.png" class="howworks" alt="" />
 								
 							<!-- <ul class="actions stacked">
 								<li><a href="#impact" class="button smooth-scroll-middle">Our Impact</a></li>
@@ -120,33 +147,6 @@
 						
 					</section>
 
-				<!-- Four -->
-					<!-- <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="impact">
-						<h2>Impact</h2>
-						<div class="content">
-							
-							<div>
-								<div class="floating">
-									<p style="font-size: 130%"><strong>92%</strong></p>
-								</div>
-								<div class="floating">
-									<strong>Accuracy rate</strong>, rivaling traditional laboratory methods
-								</div>
-								<div class="floating">
-									<p style="font-size: 130%"><strong>92%</strong></p>
-								</div>
-								<div class="floating">
-									<strong>Accuracy rate</strong>, rivaling traditional laboratory methods
-								</div>
-							</div>
-							
-								
-							<ul class="actions stacked">
-								<li><a href="#" class="button"></a></li>
-							</ul>
-						</div>
-					</section>
- -->
 				<!-- Five -->
 						<section class="wrapper style1 align-center" id="Impact">
 							<div class="inner">
@@ -154,40 +154,29 @@
 							</div>
 						</section>
 						<!-- Gallery -->
-							<div class="gallery style2 medium lightbox onscroll-fade-in">
+							<div class="gallery style1 medium lightbox onscroll-fade-in">
 								<article>
 									<a href="images/whitebackground_1stangle_withshadows_cropped.png" class="image">
-										<img src="images/whitebackground_1stangle_withshadows_cropped.png" style="" alt="" />
+										<img src="images/MOREBUTLESSERPADDINGCHISENG.png" style="" alt="" />
 									</a>
 									<div class="caption">
 									</div>
 								</article>
 								<article>
 									<a href="images/whitebackground_2ndangle_withshadows_cropped.png" class="image">
-										<img src="images/whitebackground_2ndangle_withshadows_cropped.png" alt="" />
+										<img src="images/2ndanglecentralised.png" style = ""alt="" />
 									</a>
 									<div class="caption">
 									</div>
 								</article>
 								<article>
 									<a href="images/whitebackground_3rdangle_alternativeview_withshadows_cropped.png" class="image">
-										<img src="images/whitebackground_3rdangle_alternativeview_withshadows_cropped.png" alt="" />
+										<img src="images/whitebackground_3rdangle_withshadows_croppedwebsite.png" alt="" />
 									</a>
 									<div class="caption">
 									</div>
 								</article>
-								<article>
-									<a href="images/whitebackground_3rdangle_withshadows_cropped.png" class="image">
-										<img src="images/whitebackground_3rdangle_withshadows_cropped.png" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Magna Amet</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>	
+								
 								
 							</div>
 
