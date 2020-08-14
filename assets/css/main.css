@@ -2721,7 +2721,7 @@ input, select, textarea {
 			max-width=100%;
         	position: relative;
         	top: 23%;
-        	right: 11vw;
+        	left: 3vw;
         	width: 45vw;
         	height: auto;
         	object-fit: scale-down;
